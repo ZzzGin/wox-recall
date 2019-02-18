@@ -7,9 +7,7 @@ Our time is valuable. Our brain hard disk is valuable. And **that's why** I crea
 ## Usages:
 For example, if you(I) don't want to put your(my) school ID number in your(my) precious brain hard disk but you(I) still need it:
 1. Download [Wox](http://www.wox.one/) and install it.
-2. Create a Folder named "Wox.Plugin.Recall" in "your_Wox_dir/app-x.x.xxx/Plugins"
-3. Clone this repo to this Folder
-4. I will submit this plugin to Wox official website soon. If this works, There will be an easier way to do Step.2 and Step.3. I will update.
+2. Type "wpm install Recall" and install the Plugin
 5. **"Alt+space"** to call out Wox.
 6. **"recall -a {key} {value}"** to add a key-value pair. If key exists, do nothing.
 7. **"recall {key}"** to query a key. This key will be treated as this ".\*k.\*e.\*y.\*"(a regular expression). 

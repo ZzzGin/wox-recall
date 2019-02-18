@@ -1,10 +1,10 @@
 {
-    "ID":"97303f6f2b-70e5-a965-c844-5f456920d3",
+    "ID":"97303f6f2b70e5a965c8445f456920d3",
     "ActionKeyword":"recall",
     "Name":"Recall",
     "Description":"A simple recalling app for wox",
     "Author":"JingQiSu",
-    "Version":"1.0",
+    "Version":"1.0.0",
     "Language":"python",
     "Website":"https://github.com/ZzzGin/wox-recall",
     "IcoPath":"Images\\Logo-refresh-icon.png",
