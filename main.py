@@ -136,32 +136,32 @@ class Recall(Wox):
 
     def helper(self, results):
         results.append({
-            "Title": "Fuzzy Query:      Recall {key}",
+            "Title": "Fuzzy Query:\tRecall {key}",
             "SubTitle": "Recall help",
             "IcoPath":"Images/Logo-refresh-icon.png",
         })
         results.append({
-            "Title": "RegExr Query:     Recall -r {RE}",
+            "Title": "RegExr Query:\tRecall -r {RE}",
             "SubTitle": "Recall help",
             "IcoPath":"Images/Logo-refresh-icon.png",
         })
         results.append({
-            "Title": "List all Items:   Recall .",
+            "Title": "List all Items:\tRecall .",
             "SubTitle": "Recall help",
             "IcoPath":"Images/Logo-refresh-icon.png",
         })
         results.append({
-            "Title": "Add Item:         Recall -a {key} {value}",
+            "Title": "Add Item:\tRecall -a {key} {value}",
             "SubTitle": "Recall help",
             "IcoPath":"Images/Logo-refresh-icon.png",
         })
         results.append({
-            "Title": "Delete Item:      Recall -d {key}",
+            "Title": "Delete Item:\tRecall -d {key}",
             "SubTitle": "Recall help",
             "IcoPath":"Images/Logo-refresh-icon.png",
         })
         results.append({
-            "Title": "Update Item:      Recall -u {key} {value}",
+            "Title": "Update Item:\tRecall -u {key} {value}",
             "SubTitle": "Recall help",
             "IcoPath":"Images/Logo-refresh-icon.png",
         })
