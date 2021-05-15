@@ -2,7 +2,12 @@
 
 from wox import Wox
 from SavedItems import SavedItems
-import os
+try:
+    import pyperclip
+except ImportError:
+    import pip
+    pip.main(['install', '--user', 'pyperclip'])
+    import pyperclip
 
 class Recall(Wox):
 
@@ -75,7 +80,7 @@ class Recall(Wox):
             })
 
     def copyToClipboard(self, value):
-        os.system('echo | set /p nul=' + value.strip() + '| clip')
+        pyperclip.copy(value.strip())
     
     def addResultWrapper(self, results, query_list):
         query_list_length = len(query_list)
