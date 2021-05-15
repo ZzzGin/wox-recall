@@ -2,7 +2,12 @@
 
 from wox import Wox
 from SavedItems import SavedItems
-import pyperclip
+try:
+    import pyperclip
+except ImportError:
+    import pip
+    pip.main(['install', '--user', 'pyperclip'])
+    import pyperclip
 
 class Recall(Wox):
 
